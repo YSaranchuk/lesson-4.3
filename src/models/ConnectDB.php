@@ -2,7 +2,7 @@
 namespace models;
 abstract class ConnectDB
 {
-    protected $host = 'tortilla.ru';
+    protected $host = 'localhost';
     protected $dbname = 'mydz';
     protected $dbuser = 'root';
     protected $dbpassword = '';
